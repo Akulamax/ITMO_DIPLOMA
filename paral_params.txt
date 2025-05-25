@@ -1,0 +1,535 @@
+[{'iterations': 11168, 'learning_rate': 0.04682213907261682, 'depth': 4, 'l2_leaf_reg': 3.9608776840539974}, {'iterations': 12314, 'learning_rate': 0.10996587168647032, 'depth': 4, 'l2_leaf_reg': 0.44327432474005474}, {'iterations': 11136, 'learning_rate': 0.13750541227007348, 'depth': 3, 'l2_leaf_reg': 2.761858238808689}, {'iterations': 9366, 'learning_rate': 0.1218011650367744, 'depth': 4, 'l2_leaf_reg': 1.9131261167503488}, {'iterations': 12370, 'learning_rate': 0.10756325532201176, 'depth': 4, 'l2_leaf_reg': 6.523245441695275}, {'iterations': 12128, 'learning_rate': 0.10281613794014088, 'depth': 4, 'l2_leaf_reg': 1.2912440646579493}, {'iterations': 12319, 'learning_rate': 0.07029834107933229, 'depth': 4, 'l2_leaf_reg': 2.447122187280107}, {'iterations': 10609, 'learning_rate': 0.06442041833807767, 'depth': 4, 'l2_leaf_reg': 6.436840389376119}, {'iterations': 6361, 'learning_rate': 0.1848136650170163, 'depth': 4, 'l2_leaf_reg': 4.213168484620173}, {'iterations': 12663, 'learning_rate': 0.10535238123390603, 'depth': 4, 'l2_leaf_reg': 6.217527643356971}, {'iterations': 9902, 'learning_rate': 0.1375509163338638, 'depth': 3, 'l2_leaf_reg': 6.583771131220842}, {'iterations': 7961, 'learning_rate': 0.19493291716183042, 'depth': 3, 'l2_leaf_reg': 0.4730548926614669}][array(['L_yuv_v_max', 'L_hsv_h_std', 'S_hsv_s_std', 'hu6', 'haralick8',
+       'S_rgb_b_std', 'S_yuv_full_Q80', 'I_sobelx2_r_mode', 'I_yuv_u_min',
+       'ALAS_yuv_full_std', 'tatch', 'hu5', 'area_0_110_hull_0.25',
+       'ALAS_hsv_s_max', 'L_hsv_full_mean', 'S_hsv_s_Q30',
+       'I_sobely_full_max', 'haralick12', 'min_iatch', 'ALAS_yuv_u_Q35',
+       'S_sobelx_full_max', 'L_sobelx_g_Q90', 'I_hsv_full_Q55',
+       'L_hsv_s_Q25', 'ALAS_gray_min', 'S_sobelx_full_mode',
+       'I_sobely_r_Q95', 'S_yuv_v_Q75', 'area_0_90_circle_0.25',
+       'area_0_70_circle_0.35', 'area_2_50_hull_0.85',
+       'ALAS_hsv_full_Q25', 'S_yuv_full_mean', 'I_yuv_full_median',
+       'I_yuv_y_max', 'I_sobelx_g_std', 'I_yuv_y_Q5', 'ALAS_xyz_y_Q95',
+       'I_sobelx_r_std', 'area_2_90_circle_0.95', 'L_sobelx2_g_mode',
+       'ALAS_sobely2_g_mode', 'ALAS_sobely_b_max', 'L_hsv_v_mode',
+       'I_hsv_s_Q65', 'S_xyz_y_min', 'L_sobelx2_g_std',
+       'area_2_70_ellipse_0.85', 'L_rgb_b_Q10', 'L_sobely_b_Q90',
+       'area_0_50_hull_0.15', 'I_laplacian_r_median',
+       'ALAS_hsv_full_mean', 'I_laplacian_full_Q35', 'S_sobelx2_r_std',
+       'S_rgb_r_Q95', 'S_hsv_h_Q95', 'ALAS_hsv_full_Q5',
+       'area_0_90_ellipse_0.15', 'S_xyz_full_min',
+       'area_0_110_ellipse_0.15', 'I_laplacian_g_Q50',
+       'area_1_110_circle_0.25', 'I_rgb_b_mode', 'L_rgb_b_Q20',
+       'S_hsv_full_max', 'S_hsv_h_mean', 'S_sobelx_b_mode',
+       'ALAS_hsv_full_Q70', 'S_hsv_h_Q55', 'ALAS_sobelx8u_g_std',
+       'I_yuv_y_Q15', 'L_sobelx2_full_Q85', 'ALAS_yuv_full_Q90',
+       'ALAS_laplacian_r_Q90', 'area_1_90_circle_0.05',
+       'area_0_50_hull_0.55', 'L_sobely_r_std', 'area_2_130_hull_0.45',
+       'area_2_110_hull_0.35', 'I_hsv_full_Q70', 'ALAS_hsv_full_Q85',
+       'area_1_150_ellipse_0.25', 'ALAS_hsv_full_std', 'I_hsv_h_Q65',
+       'area_0_50_circle_0.85', 'S_rbg_full_max', 'ALAS_yuv_full_Q80',
+       'I_yuv_u_Q85', 'S_sobely2_g_mean', 'I_rgb_g_mode',
+       'area_1_30_circle_0.75', 'ALAS_xyz_z_Q75', 'L_sobelx2_r_std',
+       'area_2_50_circle_0.55', 'L_hsv_h_Q5', 'area_2_30_ellipse_0.85',
+       'L_sobelx2_b_max', 'I_hsv_full_Q15', 'area_1_110_ellipse_0.35'],
+      dtype=object), array(['L_hsv_h_mean', 'ALAS_xyz_full_std', 'hu3', 'mean_mnr',
+       'I_yuv_u_Q5', 'lbp12', 'I_yuv_v_std', 'I_sobelx_b_max',
+       'I_yuv_full_Q85', 'I_hsv_full_Q35', 'I_hsv_full_Q60', 'max_iatah',
+       'L_hsv_full_mode', 'area_0_10_circle_0.85',
+       'area_0_70_ellipse_0.45', 'L_hsv_s_Q65', 'I_hsv_full_Q45',
+       'I_sobelx_r_max', 'L_sobely_b_mode', 'S_sobelx2_g_mode',
+       'S_hsv_h_Q10', 'S_xyz_x_min', 'L_sobely_g_mode',
+       'ALAS_sobelx_b_max', 'I_rgb_r_min', 'S_yuv_u_Q20',
+       'I_sobely_r_std', 'I_sobelx_b_mode', 'I_xyz_z_min',
+       'ALAS_yuv_y_std', 'ALAS_hsv_h_mean', 'S_hsv_full_median',
+       'I_hsv_v_Q5', 'ALAS_laplacian_b_max', 'area_1_90_hull_0.15',
+       'ALAS_hsv_s_Q15', 'area_0_130_hull_0.45', 'area_2_50_circle_0.85',
+       'ALAS_sobely_b_mode', 'ALAS_hsv_full_Q30', 'S_sobelx_r_max',
+       'L_sobelx8u_r_std', 'lbp9', 'S_hsv_s_median', 'S_rbg_full_min',
+       'I_sobelx2_r_max', 'S_sobely2_b_max', 'ALAS_yuv_u_Q60',
+       'ALAS_yuv_v_Q65', 'ALAS_yuv_v_min', 'ALAS_sobely2_full_max',
+       'S_yuv_v_Q95', 'S_yuv_full_max', 'I_sobely2_full_mode',
+       'I_yuv_u_max', 'I_hsv_v_Q95', 'area_2_110_circle_0.25',
+       'area_0_110_circle_0.75', 'ALAS_hsv_s_Q50', 'I_sobely_b_Q95',
+       'ALAS_sobely2_full_std', 'S_sobely_full_std',
+       'area_2_150_hull_0.35', 'L_xyz_z_mode', 'area_1_70_hull_0.15',
+       'I_yuv_v_mean', 'ALAS_yuv_y_mode', 'ALAS_yuv_full_min',
+       'ALAS_yuv_v_Q80', 'I_hsv_s_Q50', 'ALAS_hsv_full_Q45',
+       'L_sobely2_full_Q95', 'S_hsv_h_Q45', 'area_0_90_circle_0.85',
+       'S_yuv_full_std', 'area_0_70_hull_0.05', 'S_hsv_s_Q70',
+       'S_yuv_u_Q55', 'area_2_110_ellipse_0.55', 'L_sobelx_r_Q85',
+       'L_yuv_u_Q15', 'I_hsv_h_Q20', 'area_0_150_ellipse_1.0',
+       'area_1_70_hull_0.55', 'I_yuv_y_min', 'I_laplacian_r_Q95',
+       'S_hsv_s_Q85', 'ALAS_hsv_s_min', 'I_xyz_x_max',
+       'S_laplacian_g_Q20', 'L_sobely2_b_Q90', 'I_yuv_u_Q95',
+       'S_laplacian_r_mean', 'S_yuv_u_median', 'area_2_130_hull_0.25',
+       'ALAS_sobely_b_Q95', 'area_2_70_ellipse_0.95', 'I_laplacian_r_Q50',
+       'S_laplacian_full_mean', 'S_sobelx2_b_std'], dtype=object), array(['I_yuv_v_max', 'ALAS_yuv_u_Q5', 'ALAS_yuv_v_std', 'ALAS_hsv_h_std',
+       'I_xyz_x_std', 'min_rd', 'lbp2', 'L_hsv_full_Q25', 'S_rgb_g_std',
+       'L_rgb_g_std', 'area_0_90_hull_0.35', 'S_yuv_y_std',
+       'I_sobely_r_max', 'L_yuv_full_Q5', 'S_sobely2_b_mode',
+       'I_sobelx2_full_std', 'S_sobel_8u_r_mode', 'ALAS_rgb_b_Q95',
+       'ALAS_sobelx_g_std', 'L_yuv_full_min', 'I_xyz_z_Q5',
+       'area_0_70_hull_0.65', 'S_hsv_h_Q35', 'I_yuv_u_std',
+       'S_yuv_full_min', 'area_2_50_hull_0.55', 'I_laplacian_full_Q25',
+       'L_sobelx_g_mode', 'area_2_90_circle_0.85', 'ALAS_yuv_v_Q75',
+       'I_yuv_u_Q40', 'L_sobelx_r_Q95', 'area_0_90_hull_0.65',
+       'I_hsv_full_max', 'I_sobelx_full_mode', 'ALAS_laplacian_r_max',
+       'ALAS_hsv_h_Q65', 'S_sobelx2_full_max', 'S_laplacian_g_Q45',
+       'I_yuv_u_Q60', 'ALAS_hsv_s_Q80', 'L_hsv_s_Q90',
+       'ALAS_sobelx2_r_std', 'area_2_30_ellipse_0.95', 'I_hsv_s_Q35',
+       'I_hsv_s_Q90', 'S_sobely_r_std', 'S_rgb_b_max',
+       'area_0_110_hull_0.65', 'L_sobely_g_Q85', 'S_yuv_y_max',
+       'S_yuv_v_Q80', 'I_hsv_h_Q25', 'ALAS_yuv_u_Q65', 'L_yuv_u_Q10',
+       'haralick3', 'ALAS_sobely2_r_max', 'area_0_110_ellipse_0.05',
+       'I_hsv_s_Q15', 'I_rgb_r_max', 'L_sobelx_r_std',
+       'I_laplacian_full_Q20', 'S_yuv_v_Q65', 'S_sobelx_b_std',
+       'S_sobely2_b_std', 'ALAS_sobelx2_r_mode', 'area_2_90_ellipse_0.55',
+       'ALAS_sobelx2_g_max', 'S_sobely_r_mode', 'S_laplacian_g_max',
+       'L_sobelx2_full_max', 'ALAS_hsv_s_Q30', 'L_hsv_v_max',
+       'L_sobely2_g_mode', 'L_sobely2_r_Q95', 'S_xyz_z_Q10',
+       'I_sobel_8u_full_mode', 'S_sobely_full_Q95', 'I_yuv_full_Q25',
+       'ALAS_hsv_h_Q40', 'area_1_110_hull_0.55', 'I_hsv_s_mean',
+       'ALAS_gray_mode', 'S_sobely_r_Q90', 'ALAS_yuv_u_Q20',
+       'S_rgb_b_median', 'S_sobely2_full_Q95', 'area_2_170_hull_0.75',
+       'L_sobely2_full_Q90', 'S_rgb_b_Q40', 'area_0_150_hull_0.45',
+       'area_2_110_ellipse_0.45', 'area_0_110_hull_0.15',
+       'area_1_90_circle_0.35', 'L_rgb_r_mode', 'S_laplacian_r_Q40',
+       'area_0_90_circle_0.65', 'I_sobely2_r_mean', 'S_rgb_r_Q20',
+       'S_yuv_v_Q60'], dtype=object), array(['I_xyz_z_std', 'S_xyz_z_std', 'ALAS_xyz_z_std', 'I_sobelx_g_max',
+       'max_iatch', 'L_yuv_u_Q5', 'I_hsv_h_std', 'S_hsv_full_Q60',
+       'area_0_110_circle_0.35', 'min_mnr', 'S_hsv_s_Q60', 'lbp4',
+       'L_yuv_y_std', 'S_hsv_v_std', 'mean_mr', 'S_sobelx2_b_mode',
+       'I_sobelx2_g_max', 'ALAS_hsv_full_Q40', 'ALAS_yuv_v_Q85',
+       'I_yuv_full_Q70', 'lbp7', 'L_hsv_s_Q5', 'I_yuv_v_Q25',
+       'ALAS_hsv_s_Q90', 'S_yuv_u_Q5', 'L_hsv_h_Q70',
+       'area_1_90_ellipse_0.15', 'ALAS_sobelx_full_max', 'ALAS_hsv_s_Q5',
+       'ALAS_laplacian_r_std', 'ALAS_sobely2_r_mode', 'max_cr1',
+       'area_0_50_circle_0.45', 'S_xyz_x_max', 'area_2_70_hull_0.95',
+       'L_xyz_y_min', 'ALAS_hsv_v_std', 'area_1_110_hull_0.25',
+       'L_sobelx8u_b_std', 'L_hsv_full_Q5', 'ALAS_hsv_full_max',
+       'I_hsv_h_Q45', 'ALAS_sobelx_full_std', 'L_hsv_full_Q60',
+       'I_hsv_s_Q10', 'ALAS_xyz_x_std', 'ALAS_hsv_h_Q70',
+       'area_0_70_hull_0.15', 'min_iatah', 'area_2_90_hull_1.0',
+       'S_sobely_g_std', 'S_rgb_r_Q85', 'area_0_90_circle_0.45',
+       'S_hsv_full_Q5', 'S_laplacian_r_Q25', 'area_2_30_circle_1.0',
+       'I_sobely2_r_Q95', 'ALAS_hsv_s_Q60', 'S_sobely_b_mode',
+       'ALAS_yuv_v_Q50', 'area_2_70_hull_0.85', 'L_sobely_full_mode',
+       'L_sobely2_b_Q95', 'L_rgb_b_Q30', 'L_hsv_h_Q75',
+       'area_0_110_circle_0.65', 'I_hsv_full_Q25', 'I_laplacian_r_Q30',
+       'ALAS_rgb_g_Q95', 'ALAS_rgb_r_mode', 'L_yuv_y_max', 'I_hsv_s_Q20',
+       'S_sobely2_full_std', 'L_hsv_h_Q55', 'I_hsv_h_Q75',
+       'S_sobely_g_mode', 'ALAS_hsv_full_Q20', 'I_sobelx8u_b_std',
+       'L_sobelx2_r_max', 'ALAS_yuv_full_Q15', 'I_rgb_b_Q15',
+       'S_hsv_h_Q50', 'area_0_10_hull_1.0', 'I_yuv_full_Q50',
+       'ALAS_sobely2_g_std', 'S_rbg_full_Q95', 'I_yuv_full_mean',
+       'S_sobelx8u_r_Q95', 'ALAS_hsv_h_Q20', 'S_yuv_u_Q85',
+       'L_sobel_8u_r_mode', 'area_0_150_circle_0.25', 'ALAS_hsv_h_mode',
+       'ALAS_xyz_y_mode', 'S_yuv_v_Q35', 'L_sobelx2_b_Q90',
+       'I_sobely_b_mode', 'S_sobelx2_full_Q95', 'area_1_50_ellipse_0.45',
+       'L_sobely2_g_mean'], dtype=object), array(['ALAS_rgb_b_std', 'S_yuv_v_max', 'min_catch', 'I_yuv_v_Q35',
+       'ALAS_hsv_h_Q95', 'mean_cr6', 'I_laplacian_b_max', 'S_xyz_x_std',
+       'I_rgb_g_std', 'I_hsv_h_Q10', 'L_hsv_full_Q55', 'ALAS_hsv_s_mode',
+       'haralick13', 'I_xyz_full_std', 'S_yuv_u_Q15', 'I_sobelx2_g_mode',
+       'L_hsv_h_Q25', 'ALAS_laplacian_g_max', 'S_hsv_full_Q35',
+       'I_rgb_b_min', 'I_sobel_8u_b_mode', 'S_rgb_r_std',
+       'S_yuv_full_Q85', 'L_xyz_y_std', 'L_yuv_v_std', 'L_hsv_full_Q95',
+       'area_2_90_ellipse_0.95', 'L_hsv_full_max', 'L_xyz_x_min',
+       'area_0_110_ellipse_0.35', 'S_laplacian_b_Q20', 'I_sobely2_b_max',
+       'I_rbg_full_max', 'ALAS_sobelx2_full_max', 'S_sobelx2_b_max',
+       'ALAS_hsv_s_Q70', 'L_yuv_full_std', 'area_0_150_hull_0.95',
+       'I_yuv_u_Q75', 'area_2_70_circle_0.65', 'ALAS_rgb_r_std',
+       'ALAS_sobelx_b_mode', 'S_hsv_s_Q25', 'area_0_70_hull_0.45',
+       'ALAS_yuv_u_Q95', 'L_hsv_full_std', 'area_0_10_hull_0.75',
+       'area_1_90_circle_0.25', 'S_yuv_v_Q55', 'area_0_90_circle_0.15',
+       'area_0_90_hull_0.05', 'L_sobely_r_mode', 'I_laplacian_b_std',
+       'ALAS_hsv_v_min', 'L_hsv_full_Q85', 'haralick2',
+       'area_0_110_circle_0.15', 'ALAS_yuv_full_Q30', 'I_sobelx_b_std',
+       'S_sobel_8u_b_mode', 'L_sobel_8u_full_mode', 'ALAS_hsv_v_mode',
+       'S_rgb_g_mode', 'area_0_90_ellipse_0.45', 'I_sobelx_r_Q95',
+       'area_1_30_ellipse_0.45', 'area_1_50_circle_1.0', 'L_hsv_s_Q10',
+       'I_hsv_s_Q70', 'S_hsv_s_Q50', 'area_1_150_circle_0.35',
+       'L_sobelx_r_Q80', 'L_rbg_full_mode', 'S_laplacian_full_Q25',
+       'S_sobely_b_std', 'I_xyz_z_Q95', 'S_laplacian_r_Q95',
+       'area_0_50_circle_1.0', 'S_yuv_u_Q90', 'I_laplacian_g_mean',
+       'area_2_70_circle_0.55', 'S_rgb_b_Q15', 'area_0_90_ellipse_1.0',
+       'area_2_110_hull_0.75', 'area_2_30_hull_0.65', 'L_hsv_s_Q20',
+       'ALAS_yuv_full_max', 'area_0_70_circle_0.45', 'L_sobely2_g_Q95',
+       'area_0_110_ellipse_0.75', 'L_sobely2_b_std',
+       'area_0_50_ellipse_0.05', 'L_sobely2_g_max', 'area_0_50_hull_0.65',
+       'ALAS_rgb_b_mode', 'area_2_30_hull_0.75', 'S_sobely_g_Q90',
+       'S_sobely2_r_Q95', 'L_hsv_s_Q40', 'ALAS_sobelx8u_r_std'],
+      dtype=object), array(['L_hsv_h_Q95', 'hu4', 'S_gray_std', 'ALAS_yuv_u_Q10',
+       'L_yuv_full_max', 'I_yuv_u_Q70', 'ALAS_yuv_v_Q95',
+       'area_0_90_hull_0.15', 'lnpc', 'S_hsv_s_Q20', 'I_sobely_g_max',
+       'area_0_70_hull_0.35', 'S_yuv_full_Q75', 'S_hsv_full_Q55',
+       'L_rgb_r_std', 'L_hsv_v_min', 'L_xyz_full_std',
+       'I_laplacian_r_std', 'S_yuv_u_min', 'lbp17', 'ALAS_sobely2_g_max',
+       'ALAS_hsv_s_Q95', 'L_hsv_h_Q80', 'I_sobely_b_max',
+       'I_sobely2_g_max', 'L_rbg_full_std', 'S_sobely_r_Q95',
+       'I_yuv_full_Q5', 'ALAS_yuv_u_mode', 'lbp18', 'S_hsv_full_mean',
+       'I_hsv_full_median', 'S_hsv_s_Q65', 'L_sobel_8u_b_mode',
+       'ALAS_rgb_b_min', 'lbp10', 'ALAS_hsv_s_Q35', 'S_hsv_full_Q65',
+       'I_laplacian_g_Q25', 'S_yuv_v_Q85', 'S_sobely2_r_mode',
+       'L_sobelx_full_Q90', 'area_0_110_circle_0.25', 'S_hsv_h_mode',
+       'area_1_110_circle_0.35', 'S_rgb_b_min', 'ALAS_yuv_y_min',
+       'L_hsv_full_median', 'ALAS_hsv_full_Q95', 'I_sobely_r_Q90',
+       'I_hsv_h_mean', 'L_xyz_z_max', 'L_laplacian_g_Q95',
+       'I_sobelx8u_r_std', 'L_sobelx_g_Q95', 'S_laplacian_r_std',
+       'ALAS_sobely_full_mode', 'I_yuv_u_Q30', 'L_sobelx_r_mode',
+       'S_sobely_full_max', 'area_2_150_hull_0.75', 'S_yuv_full_Q10',
+       'haralick4', 'area_2_70_hull_1.0', 'area_0_90_ellipse_0.05',
+       'area_0_50_ellipse_0.65', 'I_hsv_s_Q45', 'ALAS_yuv_full_Q85',
+       'I_sobely2_g_mode', 'L_hsv_h_Q45', 'ALAS_yuv_v_Q40', 'L_hsv_s_Q95',
+       'I_sobelx2_b_std', 'I_gray_Q5', 'ALAS_sobelx_b_Q95', 'L_hsv_h_Q60',
+       'ALAS_hsv_full_Q80', 'area_0_90_circle_0.95',
+       'area_0_130_ellipse_0.85', 'area_2_90_ellipse_0.45',
+       'ALAS_yuv_u_Q40', 'S_sobely2_r_max', 'area_0_50_circle_0.25',
+       'S_laplacian_g_Q60', 'L_hsv_full_Q10', 'area_0_90_hull_0.85',
+       'I_sobely_b_std', 'area_2_50_circle_0.75',
+       'I_laplacian_full_median', 'area_0_10_circle_0.65',
+       'area_0_110_circle_0.85', 'area_2_110_hull_0.15', 'L_yuv_y_mode',
+       'S_laplacian_b_std', 'area_2_130_ellipse_0.25',
+       'area_1_50_hull_0.45', 'area_2_90_circle_0.75', 'S_rgb_b_mean',
+       'L_sobelx_b_Q85', 'ALAS_yuv_u_Q75'], dtype=object), array(['ALAS_yuv_u_std', 'lbp16', 'ALAS_hsv_full_Q35',
+       'area_0_90_hull_0.25', 'L_yuv_u_min', 'S_gray_max',
+       'ALAS_yuv_u_Q15', 'S_sobely2_g_mode', 'S_hsv_s_Q80',
+       'I_hsv_full_mean', 'mean_iatah', 'area_0_90_hull_0.55',
+       'I_sobel_8u_r_mode', 'I_hsv_full_Q30', 'S_yuv_v_min',
+       'area_0_70_hull_0.55', 'L_xyz_z_std', 'S_hsv_s_max',
+       'L_hsv_full_Q20', 'L_rgb_b_min', 'I_sobely2_b_std', 'I_rgb_g_Q15',
+       'S_sobelx2_r_max', 'I_hsv_s_Q85', 'ALAS_hsv_s_Q85',
+       'L_hsv_full_Q50', 'S_sobely_b_max', 'L_sobelx8u_g_std',
+       'I_xyz_x_Q5', 'I_yuv_v_Q60', 'I_laplacian_r_Q45', 'S_yuv_u_Q10',
+       'S_sobel_8u_full_mode', 'I_laplacian_g_std',
+       'ALAS_sobely_full_max', 'ALAS_sobelx_r_max', 'S_sobelx_g_mode',
+       'ALAS_rbg_full_min', 'ALAS_sobelx_g_mode', 'S_sobely2_r_std',
+       'ALAS_hsv_full_Q75', 'L_rgb_g_min', 'I_sobelx2_g_std',
+       'ALAS_yuv_v_Q70', 'area_2_50_ellipse_0.95', 'S_hsv_v_min',
+       'I_laplacian_full_std', 'I_hsv_v_min', 'ALAS_sobelx_g_max',
+       'ALAS_hsv_full_mode', 'L_hsv_full_Q80', 'S_hsv_h_Q30',
+       'ALAS_sobel_8u_r_mode', 'S_sobely2_b_Q95', 'I_laplacian_b_median',
+       'L_sobelx_b_std', 'S_hsv_h_Q70', 'ALAS_sobelx2_b_max',
+       'ALAS_sobely_g_std', 'area_1_90_hull_0.05',
+       'area_0_50_ellipse_0.55', 'ALAS_sobelx_r_std',
+       'area_1_70_circle_0.25', 'ALAS_xyz_y_min', 'area_2_90_hull_0.45',
+       'L_hsv_s_median', 'I_sobelx8u_r_Q95', 'S_rgb_b_Q95',
+       'area_0_110_hull_0.85', 'area_0_90_circle_0.55', 'L_yuv_u_Q20',
+       'I_hsv_full_Q10', 'area_2_150_circle_0.55',
+       'area_1_70_ellipse_0.25', 'L_rgb_g_max', 'L_hsv_h_Q20',
+       'I_rgb_g_Q95', 'I_sobelx_r_mode', 'ALAS_sobelx8u_b_std',
+       'area_0_30_ellipse_1.0', 'L_sobely_b_max', 'S_xyz_z_min',
+       'area_1_110_ellipse_0.55', 'ALAS_rgb_r_min', 'ALAS_hsv_h_Q25',
+       'I_hsv_h_Q60', 'ALAS_sobel_8u_g_mode', 'S_yuv_u_Q45',
+       'ALAS_sobely2_full_mode', 'I_xyz_x_Q95', 'ALAS_laplacian_g_Q30',
+       'L_sobel_8u_r_Q30', 'L_hsv_full_Q75', 'L_sobely_g_Q90',
+       'area_2_50_hull_1.0', 'S_yuv_u_Q50', 'L_sobelx2_g_max',
+       'S_laplacian_b_mean', 'S_rgb_r_min', 'L_sobely_full_std'],
+      dtype=object), array(['I_gray_std', 'area_0_110_hull_0.45', 'lbp5', 'L_hsv_full_Q65',
+       'max_catch', 'S_hsv_h_std', 'ALAS_hsv_h_Q50', 'I_sobelx_full_max',
+       'hu1', 'ALAS_yuv_u_Q50', 'I_rgb_g_min', 'area_2_50_circle_0.65',
+       'max_rd', 'I_sobely_full_std', 'area_0_70_ellipse_0.55', 'max_mr',
+       'I_hsv_s_Q40', 'S_laplacian_r_Q45', 'I_hsv_full_Q65',
+       'I_sobelx2_full_max', 'area_1_90_hull_0.25', 'I_sobely2_r_max',
+       'S_rgb_r_max', 'S_hsv_h_Q20', 'S_yuv_u_max', 'I_yuv_v_Q95',
+       'lbp15', 'I_yuv_v_Q40', 'L_rgb_b_mode', 'ALAS_hsv_s_Q55', 'lbp1',
+       'I_yuv_u_Q10', 'ALAS_sobely_g_max', 'area_0_10_hull_0.95',
+       'S_hsv_h_Q40', 'area_0_70_circle_0.55', 'I_hsv_s_Q55',
+       'area_2_50_ellipse_0.85', 'area_2_90_hull_0.75', 'L_hsv_s_max',
+       'S_sobelx_r_mode', 'I_hsv_h_Q5', 'I_hsv_s_max',
+       'ALAS_yuv_full_Q20', 'L_hsv_s_mean', 'I_sobely_r_mode',
+       'S_sobelx2_g_Q95', 'ALAS_yuv_v_Q10', 'ALAS_laplacian_r_Q15',
+       'ALAS_sobelx2_g_std', 'S_sobely_full_mode',
+       'ALAS_sobel_8u_full_mode', 'haralick11', 'area_0_130_hull_0.85',
+       'I_hsv_s_Q80', 'S_yuv_full_Q15', 'I_laplacian_r_mean',
+       'I_sobelx_g_mode', 'ALAS_yuv_v_Q45', 'L_sobely_full_max',
+       'L_rbg_full_min', 'I_sobely_r_Q80', 'I_laplacian_b_Q35',
+       'I_yuv_u_Q25', 'I_laplacian_r_Q40', 'L_sobel_8u_g_mode',
+       'S_laplacian_g_Q50', 'area_0_50_ellipse_1.0',
+       'area_2_50_ellipse_0.75', 'area_0_30_hull_1.0', 'I_hsv_full_Q20',
+       'area_2_70_hull_0.75', 'area_0_70_circle_0.05', 'S_sobelx8u_b_std',
+       'L_xyz_z_min', 'I_hsv_s_Q75', 'area_1_50_hull_0.55', 'I_hsv_h_Q15',
+       'area_0_150_hull_0.25', 'area_1_130_hull_0.15',
+       'area_2_130_circle_0.25', 'area_2_90_circle_0.25',
+       'L_sobelx_g_std', 'I_yuv_full_Q90', 'ALAS_laplacian_full_std',
+       'L_rgb_b_max', 'area_2_130_hull_0.55', 'S_rgb_b_mode',
+       'L_sobely2_b_max', 'ALAS_laplacian_b_Q15', 'ALAS_yuv_full_Q65',
+       'S_laplacian_b_max', 'S_hsv_v_Q95', 'area_0_110_circle_1.0',
+       'area_2_90_circle_0.35', 'S_yuv_v_median', 'L_sobely2_r_Q90',
+       'I_yuv_full_Q55', 'ALAS_xyz_z_mode', 'area_1_70_hull_0.45'],
+      dtype=object), array(['I_hsv_s_std', 'area_0_90_hull_0.45', 'I_laplacian_g_max',
+       'L_hsv_s_std', 'S_hsv_full_Q50', 'S_xyz_full_std',
+       'ALAS_hsv_h_Q85', 'min_mr', 'I_yuv_full_Q80', 'L_hsv_h_Q10',
+       'S_hsv_full_Q30', 'S_sobelx2_r_mode', 'L_sobelx_r_Q90',
+       'ALAS_hsv_full_median', 'S_hsv_h_Q15', 'area_0_110_ellipse_0.25',
+       'L_gray_std', 'I_yuv_full_min', 'I_sobely_g_std', 'S_gray_min',
+       'L_hsv_s_min', 'I_rgb_b_Q5', 'I_yuv_v_min', 'I_sobelx2_b_mode',
+       'I_sobelx2_b_max', 'L_sobely_r_Q95', 'ALAS_yuv_u_Q30',
+       'I_laplacian_r_Q60', 'I_laplacian_b_Q40', 'ALAS_hsv_s_Q10',
+       'L_xyz_full_min', 'I_yuv_full_std', 'S_hsv_s_Q90',
+       'ALAS_sobelx_g_Q95', 'S_sobelx_g_max', 'min_cr6', 'S_sobely_g_max',
+       'max_cr6', 'L_sobelx2_g_Q90', 'ALAS_sobely_g_mode', 'S_hsv_v_max',
+       'S_sobelx_b_Q95', 'ALAS_xyz_z_Q95', 'ALAS_hsv_full_Q90',
+       'area_0_70_circle_0.15', 'L_hsv_s_Q70', 'S_sobelx8u_r_std',
+       'S_laplacian_g_median', 'S_hsv_h_Q80', 'L_sobely2_r_mode',
+       'I_rgb_b_max', 'S_yuv_u_Q25', 'I_sobely2_r_mode',
+       'I_sobely_g_mode', 'ALAS_sobely2_b_mode', 'ALAS_yuv_v_mean',
+       'L_hsv_h_Q40', 'S_sobely2_full_mode', 'ALAS_yuv_u_Q90',
+       'I_sobel_8u_g_mode', 'ALAS_yuv_u_median', 'area_0_90_ellipse_0.55',
+       'S_hsv_s_Q40', 'area_1_90_hull_0.35', 'ALAS_sobely_b_std',
+       'S_yuv_v_mean', 'I_yuv_v_Q90', 'I_hsv_s_Q5', 'I_hsv_v_Q15',
+       'S_yuv_u_Q60', 'ALAS_hsv_h_Q30', 'ALAS_sobel_8u_r_Q45',
+       'area_0_130_hull_0.95', 'area_2_50_ellipse_1.0',
+       'area_2_30_circle_0.75', 'I_sobely2_full_Q95', 'S_hsv_full_Q20',
+       'area_2_50_circle_0.95', 'S_rgb_g_Q95', 'I_hsv_h_Q50',
+       'area_0_50_circle_0.75', 'ALAS_hsv_full_Q15', 'I_sobely_full_mode',
+       'S_laplacian_r_max', 'area_1_30_circle_0.95',
+       'ALAS_yuv_full_median', 'S_laplacian_g_Q15',
+       'area_2_150_hull_0.45', 'S_rgb_g_min', 'area_2_90_hull_0.25',
+       'S_xyz_z_Q25', 'ALAS_xyz_z_min', 'L_laplacian_g_max',
+       'L_hsv_s_Q35', 'I_sobely2_full_Q5', 'area_0_110_ellipse_1.0',
+       'S_rgb_g_max', 'S_xyz_z_Q5', 'I_laplacian_r_Q85',
+       'area_0_150_circle_0.85'], dtype=object), array(['ALAS_yuv_v_max', 'L_yuv_u_std', 'L_hsv_h_Q90',
+       'ALAS_rbg_full_std', 'I_laplacian_r_max', 'max_mnr',
+       'I_sobely2_full_max', 'I_hsv_full_Q50', 'area_2_90_circle_1.0',
+       'L_xyz_x_std', 'I_sobelx2_full_mode', 'I_yuv_full_Q75',
+       'area_0_70_circle_0.65', 'I_sobely2_full_std', 'I_xyz_full_min',
+       'I_rgb_r_std', 'ALAS_yuv_u_Q25', 'area_0_110_hull_0.55',
+       'I_hsv_s_min', 'area_1_110_hull_0.35', 'S_yuv_u_mean',
+       'I_xyz_y_std', 'ALAS_xyz_y_std', 'I_sobely2_b_mode',
+       'L_hsv_full_Q35', 'I_yuv_v_Q30', 'S_hsv_h_Q25', 'S_yuv_v_Q70',
+       'ALAS_sobelx_b_std', 'lbp14', 'area_0_130_circle_0.25',
+       'S_hsv_s_Q95', 'S_hsv_h_Q90', 'area_2_50_ellipse_0.45', 'lbp3',
+       'L_sobelx8u_full_std', 'I_yuv_y_std', 'haralick1', 'L_hsv_s_Q75',
+       'area_0_70_ellipse_0.15', 'S_sobel_8u_g_mode',
+       'S_laplacian_full_Q45', 'S_xyz_z_Q15', 'ALAS_sobelx2_g_mode',
+       'lbp8', 'S_hsv_s_Q75', 'I_xyz_x_min', 'area_0_110_ellipse_0.55',
+       'ALAS_sobelx_full_mode', 'S_hsv_s_mode', 'mean_cr1',
+       'ALAS_hsv_full_Q50', 'area_2_130_hull_0.35', 'L_hsv_s_Q50',
+       'S_hsv_s_Q5', 'ALAS_sobelx2_full_mode', 'I_sobelx_full_std',
+       'L_sobelx2_r_Q95', 'ALAS_hsv_h_Q35', 'ALAS_yuv_v_Q90',
+       'area_2_90_circle_0.15', 'I_sobelx2_r_std', 'I_hsv_s_median',
+       'ALAS_yuv_v_mode', 'ALAS_yuv_u_Q55', 'area_1_90_hull_0.45',
+       'area_1_90_circle_0.15', 'L_rgb_r_max', 'L_sobelx2_full_mode',
+       'ALAS_hsv_h_Q45', 'I_rgb_b_Q95', 'ALAS_hsv_h_Q90',
+       'ALAS_hsv_h_Q80', 'ALAS_sobelx2_full_std', 'S_hsv_h_median',
+       'S_hsv_full_Q25', 'ALAS_laplacian_g_std', 'ALAS_yuv_v_Q60',
+       'S_yuv_v_Q90', 'area_0_150_circle_0.65', 'I_sobelx_g_Q95',
+       'S_sobely2_g_max', 'area_0_30_hull_0.55', 'ALAS_rbg_full_mode',
+       'area_0_50_circle_0.55', 'ALAS_yuv_v_Q25', 'area_1_50_circle_0.25',
+       'ALAS_hsv_h_Q75', 'ALAS_sobely_full_std', 'L_sobely2_full_mode',
+       'ALAS_xyz_full_mode', 'I_yuv_u_Q45', 'L_sobelx_full_std',
+       'min_cr1', 'L_sobely2_g_std', 'L_laplacian_full_Q90',
+       'S_sobelx2_b_Q95', 'L_sobelx2_b_Q95', 'area_1_110_circle_0.15',
+       'ALAS_gray_std'], dtype=object), array(['ALAS_hsv_s_std', 'L_hsv_full_Q30', 'hu7', 'S_xyz_y_std',
+       'I_laplacian_full_max', 'ALAS_yuv_full_mode', 'mean_catch',
+       'L_hsv_v_std', 'I_hsv_s_Q95', 'S_hsv_full_Q40', 'haralick5',
+       'lbp13', 'area_0_70_hull_0.25', 'area_0_90_ellipse_0.25',
+       'mean_iatch', 'ALAS_rgb_g_min', 'S_hsv_s_min', 'ALAS_hsv_full_Q65',
+       'S_yuv_y_min', 'I_sobely2_r_std', 'I_yuv_u_Q65', 'L_rgb_b_std',
+       'cc', 'L_hsv_h_Q85', 'S_hsv_h_Q5', 'I_hsv_s_Q30',
+       'S_sobely2_g_std', 'area_2_70_circle_1.0', 'S_sobelx_b_max',
+       'L_hsv_h_Q50', 'S_yuv_u_std', 'I_laplacian_r_Q20',
+       'ALAS_laplacian_full_max', 'I_hsv_h_Q90', 'area_0_110_hull_0.35',
+       'S_sobelx_full_Q95', 'area_2_150_hull_0.65', 'L_rgb_r_min',
+       'I_laplacian_r_Q65', 'area_0_130_hull_0.25', 'ALAS_yuv_v_Q55',
+       'L_hsv_s_mode', 'I_sobely_g_Q95', 'area_1_30_circle_0.55',
+       'S_rbg_full_std', 'area_0_130_circle_0.35',
+       'area_1_90_ellipse_0.35', 'ALAS_yuv_u_mean', 'ALAS_hsv_s_Q20',
+       'haralick10', 'I_yuv_v_Q55', 'I_laplacian_b_Q60',
+       'area_2_30_ellipse_0.55', 'I_hsv_h_Q55', 'ALAS_sobely_r_median',
+       'I_sobelx_r_Q90', 'I_hsv_s_Q60', 'ALAS_hsv_h_Q55',
+       'S_laplacian_b_Q25', 'L_sobely2_g_Q90', 'area_0_110_circle_0.05',
+       'ALAS_sobely2_b_max', 'ALAS_xyz_x_mode', 'L_hsv_full_Q70',
+       'I_hsv_v_max', 'area_2_90_ellipse_1.0', 'L_sobely_full_Q90',
+       'ALAS_sobely_r_mode', 'S_rgb_g_Q10', 'L_yuv_y_min',
+       'area_1_90_hull_0.55', 'L_sobelx2_b_std', 'area_1_70_ellipse_0.15',
+       'ALAS_yuv_u_Q85', 'I_hsv_h_Q70', 'ALAS_sobely2_r_std',
+       'I_rgb_r_Q10', 'L_hsv_full_Q45', 'ALAS_yuv_full_Q10',
+       'ALAS_laplacian_full_Q30', 'L_sobelx_b_Q80', 'I_rbg_full_mode',
+       'I_yuv_v_Q20', 'L_yuv_v_mean', 'L_sobelx2_full_std',
+       'area_1_110_hull_0.65', 'I_xyz_full_Q15',
+       'area_0_110_ellipse_0.85', 'I_sobelx_r_Q85', 'L_laplacian_b_Q95',
+       'I_yuv_full_max', 'haralick6', 'L_yuv_v_min', 'I_hsv_full_Q5',
+       'S_rgb_r_Q90', 'S_yuv_u_Q35', 'L_sobelx2_r_Q90',
+       'area_0_50_ellipse_0.75', 'L_hsv_s_Q15', 'S_hsv_v_Q5'],
+      dtype=object), array(['I_rgb_b_std', 'batch', 'ALAS_yuv_u_min', 'L_yuv_u_mean', 'hu2',
+       'I_sobely2_g_std', 'I_hsv_full_Q40', 'mean_rd', 'L_hsv_full_Q90',
+       'S_yuv_v_std', 'L_hsv_h_Q65', 'lbp6', 'I_rbg_full_min',
+       'S_hsv_full_Q45', 'L_hsv_full_Q40', 'ALAS_rgb_g_std',
+       'I_hsv_v_std', 'L_hsv_h_max', 'ALAS_sobely_r_max',
+       'area_0_90_ellipse_0.85', 'S_rgb_b_Q5', 'ALAS_sobelx2_r_max',
+       'area_0_110_ellipse_0.45', 'area_2_70_ellipse_0.75', 'haralick9',
+       'ALAS_hsv_s_Q25', 'ALAS_yuv_full_Q95', 'I_hsv_h_Q95',
+       'S_sobelx2_full_mode', 'ALAS_hsv_s_median', 'ALAS_sobelx2_b_mode',
+       'L_sobelx_b_mode', 'S_sobelx2_g_max', 'S_yuv_full_Q70',
+       'ALAS_hsv_full_Q60', 'area_0_130_hull_0.35', 'ALAS_sobelx2_b_std',
+       'L_hsv_s_Q60', 'L_sobelx_b_Q90', 'ALAS_sobel_8u_b_mode',
+       'area_2_90_hull_0.85', 'I_laplacian_b_Q20', 'I_yuv_u_mean',
+       'S_sobelx_full_std', 'S_yuv_u_Q30', 'area_0_130_hull_0.65',
+       'S_sobelx2_b_Q5', 'S_hsv_s_Q55', 'I_laplacian_full_Q50',
+       'area_2_150_circle_0.35', 'S_hsv_h_Q85', 'I_hsv_h_mode',
+       'ALAS_yuv_u_max', 'area_2_30_hull_0.45', 'area_1_90_ellipse_0.05',
+       'S_hsv_s_Q15', 'S_sobely_g_Q95', 'I_sobely_full_Q95',
+       'area_0_10_circle_0.55', 'L_laplacian_b_std', 'S_rbg_full_mode',
+       'S_rgb_r_Q10', 'area_2_130_ellipse_0.15', 'I_hsv_s_mode',
+       'S_hsv_v_Q80', 'L_sobelx2_r_mode', 'I_yuv_full_Q65',
+       'ALAS_hsv_h_median', 'ALAS_hsv_h_Q60', 'I_laplacian_r_Q90',
+       'I_laplacian_full_mean'], dtype=object)][0.7005592435673773, 0.7098094922773905, 0.6696192281711503, 0.7020478425858278, 0.6961507153555159, 0.6907208335530594, 0.6888353056007288, 0.6940383583528973, 0.6890587674303067, 0.6951948982936745, 0.6849907856119036, 0.7219646361369031]best_features['I_hsv_s_std' 'ALAS_yuv_u_std' 'ALAS_yuv_v_std' 'ALAS_hsv_s_std'
+ 'I_yuv_v_Q35' 'I_xyz_z_std' 'I_yuv_v_Q40' 'area_0_90_hull_0.45' 'hu2'
+ 'I_yuv_v_max' 'L_hsv_h_Q90' 'ALAS_rbg_full_std' 'S_hsv_s_std' 'hu7'
+ 'ALAS_xyz_full_std' 'L_hsv_h_std' 'ALAS_yuv_full_mode' 'L_yuv_v_max'
+ 'ALAS_hsv_s_mode' 'I_sobelx2_r_mode' 'ALAS_yuv_v_max' 'hu5'
+ 'S_sobelx8u_r_std' 'L_hsv_h_Q95' 'I_sobelx2_full_mode'
+ 'area_2_50_ellipse_0.85' 'ALAS_sobely_b_Q95' 'ALAS_xyz_z_std' 'hu6'
+ 'tatch' 'ALAS_sobel_8u_r_Q45' 'I_hsv_s_Q95' 'L_sobelx8u_r_std'
+ 'L_hsv_full_mean' 'I_yuv_u_Q70' 'I_sobelx_r_Q85' 'ALAS_sobely2_r_mode'
+ 'L_hsv_s_std' 'hu3' 'ALAS_hsv_full_Q35' 'ALAS_sobely_g_mode'
+ 'I_yuv_full_Q80' 'L_hsv_h_max' 'S_xyz_y_std' 'I_sobely_b_Q95' 'lnpc'
+ 'L_rgb_g_std' 'ALAS_hsv_full_Q65' 'ALAS_yuv_full_std' 'S_yuv_u_Q10'
+ 'I_sobely_full_max' 'L_sobely_r_mode' 'I_rgb_b_std' 'ALAS_sobelx2_b_mode'
+ 'ALAS_sobelx8u_b_std' 'area_1_150_ellipse_0.25' 'I_sobelx2_r_max'
+ 'I_sobely2_full_max' 'S_sobely2_b_std' 'L_hsv_v_std' 'S_yuv_u_max'
+ 'L_sobely2_r_mode' 'L_hsv_full_Q95' 'S_sobelx2_b_mode' 'batch'
+ 'I_yuv_full_Q75' 'L_yuv_u_Q5' 'I_sobel_8u_b_mode' 'L_sobely_b_mode'
+ 'I_sobelx_b_mode' 'ALAS_yuv_y_std' 'S_sobelx2_b_Q95' 'L_rgb_r_std'
+ 'lbp16' 'cc' 'I_rgb_g_std' 'S_laplacian_full_Q45' 'L_rbg_full_std'
+ 'L_sobelx_r_mode' 'haralick12' 'S_sobely_b_mode' 'max_cr6' 'S_hsv_h_std'
+ 'L_sobelx8u_b_std' 'S_sobelx_g_mode' 'S_yuv_v_max' 'L_sobely_g_mode'
+ 'S_xyz_full_std' 'S_sobelx2_b_Q5' 'ALAS_sobelx_g_max' 'I_sobelx2_g_max'
+ 'ALAS_sobely_b_mode' 'S_sobelx2_r_mode' 'L_rbg_full_mode' 'I_yuv_v_Q25'
+ 'S_hsv_full_Q55' 'S_rgb_r_std' 'area_0_110_hull_0.25' 'I_sobelx8u_r_Q95'
+ 'area_1_90_circle_0.35' 'L_sobelx_b_mode' 'ALAS_sobely2_g_mode'
+ 'L_yuv_full_max' 'area_1_150_circle_0.35' 'I_xyz_y_std'
+ 'area_1_90_hull_0.25' 'S_sobelx_b_max' 'ALAS_yuv_v_Q95'
+ 'area_2_50_circle_0.65' 'ALAS_sobelx2_g_mode' 'S_hsv_full_median'
+ 'ALAS_sobelx8u_g_std' 'S_hsv_v_std' 'L_hsv_s_min' 'ALAS_hsv_s_max'
+ 'S_rgb_b_mode' 'L_hsv_full_Q30' 'ALAS_sobelx_b_mode' 'L_sobely_full_mode'
+ 'L_sobel_8u_b_mode' 'L_sobelx2_g_mode' 'I_sobely_r_Q95' 'L_rgb_b_std'
+ 'ALAS_sobely_r_max' 'ALAS_xyz_z_mode' 'min_mnr' 'L_sobelx_g_mode'
+ 'I_sobely2_b_mode' 'L_sobelx2_full_mode' 'S_sobel_8u_g_mode'
+ 'I_yuv_full_Q85' 'min_cr6' 'lbp5' 'L_xyz_full_std' 'ALAS_sobelx8u_r_std'
+ 'L_sobelx8u_g_std' 'S_sobelx2_b_max' 'I_hsv_h_std' 'I_laplacian_full_Q25'
+ 'S_sobelx_r_max' 'ALAS_sobelx_b_max' 'area_2_70_ellipse_0.95'
+ 'S_hsv_v_min' 'I_rgb_g_min' 'I_yuv_u_min' 'area_0_110_ellipse_0.05'
+ 'L_hsv_h_Q85' 'area_0_110_hull_0.55' 'S_hsv_h_Q15' 'area_0_70_hull_0.35'
+ 'mean_catch' 'L_sobel_8u_r_mode' 'I_sobely_g_mode' 'ALAS_rgb_r_mode'
+ 'L_sobelx8u_full_std' 'I_sobelx_g_mode' 'ALAS_rgb_b_std'
+ 'I_laplacian_r_Q60' 'ALAS_sobely_b_max' 'area_0_110_hull_0.45'
+ 'ALAS_yuv_full_Q20' 'I_hsv_s_min' 'I_yuv_u_max' 'I_rbg_full_min'
+ 'ALAS_hsv_full_Q95' 'L_hsv_full_max' 'S_sobel_8u_r_mode'
+ 'I_laplacian_b_max' 'area_0_10_circle_0.65' 'lbp7' 'I_rgb_r_max'
+ 'I_sobel_8u_r_mode' 'I_sobely_b_max' 'ALAS_sobely_r_median'
+ 'L_sobelx_r_Q80' 'ALAS_laplacian_r_Q90' 'I_hsv_s_mode' 'I_rgb_b_mode'
+ 'L_sobely2_g_std' 'area_0_130_circle_0.35' 'S_sobelx2_g_mode'
+ 'ALAS_hsv_full_mode' 'I_sobely_r_Q80' 'ALAS_yuv_u_Q25' 'I_sobely_b_mode'
+ 'L_hsv_h_Q5' 'I_sobely_r_mode' 'ALAS_sobel_8u_b_mode'
+ 'ALAS_sobel_8u_full_mode' 'ALAS_yuv_u_min' 'L_sobely_b_max'
+ 'area_0_50_ellipse_0.05' 'S_sobely2_full_mode' 'ALAS_rgb_g_min'
+ 'ALAS_laplacian_full_Q30' 'L_sobel_8u_r_Q30' 'S_xyz_z_Q25'
+ 'ALAS_yuv_u_max' 'max_cr1' 'I_sobelx_g_Q95' 'I_sobelx8u_b_std'
+ 'ALAS_sobelx2_r_mode' 'ALAS_laplacian_r_Q15' 'ALAS_sobelx2_g_std'
+ 'area_1_30_ellipse_0.45' 'ALAS_sobelx_g_mode' 'area_2_150_hull_0.75'
+ 'S_yuv_v_Q35' 'S_sobelx_r_mode' 'S_sobely_g_max' 'S_sobelx_b_mode'
+ 'mean_mr' 'S_sobelx8u_b_std' 'ALAS_sobelx_b_std' 'S_sobelx_full_max'
+ 'I_sobely2_r_max' 'mean_iatah' 'S_hsv_full_Q60' 'ALAS_hsv_h_std'
+ 'I_laplacian_full_max' 'S_sobelx2_g_max' 'S_yuv_u_Q15' 'I_yuv_full_Q50'
+ 'I_sobely2_r_std' 'S_rgb_r_min' 'min_mr' 'area_2_150_hull_0.65'
+ 'S_sobely2_b_max' 'area_2_90_hull_0.85' 'I_hsv_full_Q40'
+ 'L_sobelx2_r_mode' 'I_sobel_8u_g_mode' 'L_sobelx_b_std' 'S_rgb_b_std'
+ 'S_yuv_full_Q70' 'I_laplacian_r_Q20' 'S_rgb_g_min' 'S_sobely2_g_mode'
+ 'S_hsv_full_Q65' 'S_rgb_g_std' 'I_yuv_v_std' 'haralick13' 'I_hsv_h_Q25'
+ 'S_sobely_g_Q95' 'I_laplacian_r_Q50' 'S_rgb_b_min' 'ALAS_laplacian_r_std'
+ 'ALAS_sobely_full_mode' 'I_sobelx2_b_max' 'area_2_90_circle_0.35'
+ 'S_sobely2_g_std' 'area_2_90_ellipse_0.95' 'ALAS_hsv_full_max'
+ 'ALAS_sobelx2_full_mode' 'area_0_150_circle_0.65' 'S_hsv_full_mean'
+ 'I_yuv_full_Q90' 'L_rgb_g_min' 'ALAS_sobelx2_r_std' 'L_rgb_b_mode'
+ 'I_hsv_full_Q30' 'I_hsv_h_mode' 'ALAS_sobel_8u_r_mode'
+ 'I_sobelx2_full_max' 'ALAS_sobelx_full_mode' 'hu1' 'S_sobely_full_mode'
+ 'I_sobely2_full_Q5' 'hu4' 'ALAS_yuv_v_min' 'ALAS_yuv_full_Q15'
+ 'I_yuv_full_Q65' 'S_rgb_b_median' 'I_sobelx_r_mode' 'haralick4'
+ 'I_sobelx8u_r_std' 'ALAS_hsv_h_Q60' 'I_yuv_u_std' 'I_yuv_y_Q5'
+ 'ALAS_sobely2_b_mode' 'area_0_70_hull_0.25' 'L_hsv_s_Q95'
+ 'L_sobelx_b_Q90' 'I_laplacian_g_std' 'S_sobelx2_b_std' 'I_xyz_full_std'
+ 'L_sobelx2_b_max' 'I_sobely2_r_mode' 'S_rgb_r_max' 'lbp1'
+ 'S_rbg_full_mode' 'S_hsv_s_max' 'L_hsv_full_Q35' 'area_0_110_circle_0.15'
+ 'I_hsv_full_Q65' 'ALAS_laplacian_r_max' 'area_1_90_ellipse_0.15'
+ 'S_laplacian_b_max' 'S_laplacian_r_mean' 'min_iatah'
+ 'area_0_30_hull_0.55' 'L_hsv_h_Q80' 'L_hsv_h_Q70' 'L_sobelx_b_Q80'
+ 'L_sobelx_b_Q85' 'ALAS_laplacian_g_max' 'area_1_30_circle_0.55'
+ 'area_0_70_ellipse_0.45' 'I_rgb_g_mode' 'I_hsv_full_max' 'ALAS_yuv_v_Q25'
+ 'L_hsv_v_mode' 'I_sobelx_g_max' 'L_sobelx2_b_std' 'S_laplacian_r_Q95'
+ 'L_hsv_s_max' 'haralick10' 'S_sobelx_full_mode' 'ALAS_yuv_y_min'
+ 'S_sobelx2_full_max' 'S_rgb_g_max' 'ALAS_sobelx_g_Q95'
+ 'ALAS_sobely2_r_std' 'L_laplacian_g_max' 'ALAS_yuv_u_mode'
+ 'I_sobelx_r_Q95' 'lbp6' 'S_hsv_s_Q80' 'mean_rd' 'S_laplacian_r_Q25'
+ 'S_hsv_full_Q45' 'S_yuv_v_Q90' 'I_hsv_full_Q20' 'S_hsv_full_Q35' 'lbp4'
+ 'L_hsv_s_mode' 'lbp15' 'I_sobely2_g_max' 'L_sobely2_b_max' 'L_hsv_h_mean'
+ 'area_1_70_ellipse_0.25' 'ALAS_rbg_full_mode' 'L_xyz_z_std'
+ 'area_0_10_circle_0.55' 'S_laplacian_r_max' 'ALAS_sobelx_r_std'
+ 'I_sobely_full_mode' 'L_sobelx2_r_Q95' 'ALAS_sobely2_g_max'
+ 'area_0_110_circle_0.05' 'L_rgb_b_max' 'I_laplacian_b_median'
+ 'L_yuv_u_min' 'area_0_90_hull_0.15' 'area_2_30_ellipse_0.95'
+ 'L_sobely2_full_mode' 'S_sobely_g_Q90' 'area_2_70_hull_0.85'
+ 'S_sobely_r_std' 'I_sobely_r_Q90' 'S_rgb_g_Q95' 'S_yuv_full_Q75'
+ 'S_laplacian_g_max' 'S_hsv_h_Q5' 'ALAS_yuv_u_Q95' 'ALAS_yuv_u_Q10'
+ 'I_xyz_z_Q5' 'max_iatah' 'ALAS_laplacian_full_max' 'S_sobely_r_Q95'
+ 'I_yuv_full_std' 'L_sobelx_r_std' 'I_hsv_s_Q50' 'L_sobely2_r_Q90'
+ 'I_yuv_full_Q5' 'ALAS_hsv_v_mode' 'area_2_70_hull_0.95'
+ 'I_laplacian_r_mean' 'ALAS_sobel_8u_g_mode' 'I_xyz_full_min'
+ 'S_xyz_z_std' 'I_laplacian_full_median' 'ALAS_sobely_full_max'
+ 'ALAS_hsv_h_mode' 'S_laplacian_full_Q25' 'S_laplacian_b_mean'
+ 'I_rgb_r_std' 'S_hsv_full_Q20' 'ALAS_sobely2_full_mode'
+ 'S_sobely2_b_mode' 'area_0_130_hull_0.95' 'ALAS_sobelx_r_max'
+ 'L_yuv_v_min' 'I_yuv_v_min' 'ALAS_hsv_s_min' 'ALAS_sobelx_g_std'
+ 'S_xyz_y_min' 'L_rgb_r_max' 'L_hsv_full_Q10' 'ALAS_sobely_g_std'
+ 'I_sobely2_g_mode' 'S_xyz_x_max' 'L_rgb_r_mode' 'S_yuv_full_mean'
+ 'L_yuv_y_max' 'ALAS_hsv_s_Q10' 'I_laplacian_b_Q40' 'S_yuv_v_mean'
+ 'I_sobely2_b_max' 'S_hsv_s_min' 'S_yuv_full_Q80' 'area_1_110_hull_0.35'
+ 'area_0_110_ellipse_0.35' 'area_2_30_ellipse_0.85' 'ALAS_xyz_y_min'
+ 'S_sobely_r_Q90' 'L_sobelx_r_Q95' 'I_rbg_full_mode' 'S_sobely_r_mode'
+ 'ALAS_hsv_s_Q55' 'ALAS_hsv_s_Q5' 'area_2_30_hull_0.45' 'I_hsv_full_Q35'
+ 'I_xyz_x_Q95' 'L_laplacian_g_Q95' 'ALAS_xyz_z_Q75' 'ALAS_sobely2_r_max'
+ 'area_1_110_ellipse_0.55' 'I_yuv_v_Q20' 'mean_iatch' 'I_hsv_h_Q20'
+ 'ALAS_sobelx2_b_std' 'ALAS_hsv_s_Q15' 'S_sobely_g_mode'
+ 'S_sobel_8u_full_mode' 'area_1_130_hull_0.15' 'I_hsv_full_Q10'
+ 'L_yuv_u_std' 'ALAS_rgb_r_std' 'area_2_90_circle_0.75'
+ 'area_2_90_ellipse_0.45' 'S_sobel_8u_b_mode' 'area_0_150_hull_0.45'
+ 'lbp3' 'I_sobely2_g_std' 'ALAS_sobelx_full_std' 'area_2_50_ellipse_0.75'
+ 'area_2_90_circle_0.25' 'lbp12' 'I_sobelx_r_max' 'area_1_30_circle_0.95'
+ 'ALAS_xyz_x_mode' 'I_sobel_8u_full_mode' 'I_hsv_v_std'
+ 'S_sobely_full_max' 'max_catch' 'ALAS_hsv_s_Q20' 'L_sobel_8u_g_mode'
+ 'I_laplacian_g_max' 'I_sobelx_full_mode' 'S_yuv_u_Q30'
+ 'area_2_70_ellipse_0.75' 'ALAS_sobely2_b_max' 'I_xyz_full_Q15'
+ 'L_hsv_v_max' 'area_0_70_hull_0.05' 'I_sobely_full_Q95' 'S_xyz_z_Q5'
+ 'L_xyz_z_max' 'L_sobely_full_max' 'lbp9' 'I_laplacian_r_Q85'
+ 'I_hsv_s_Q65' 'area_0_90_circle_0.65' 'I_hsv_full_Q45' 'L_xyz_y_min'
+ 'ALAS_sobelx2_b_max' 'S_sobely2_r_std' 'ALAS_yuv_full_Q10'
+ 'area_0_150_circle_0.25' 'area_0_130_hull_0.35' 'I_laplacian_r_Q90'
+ 'S_yuv_v_std' 'area_0_50_ellipse_0.55' 'I_hsv_s_max' 'S_laplacian_r_std'
+ 'S_hsv_full_Q30' 'max_iatch' 'L_hsv_v_min' 'mean_cr6' 'I_sobelx_g_std'
+ 'ALAS_hsv_full_Q80' 'L_sobely_r_Q95' 'S_yuv_u_min' 'L_sobely2_g_Q95'
+ 'area_2_130_ellipse_0.15' 'ALAS_yuv_full_max' 'I_sobely2_r_mean'
+ 'ALAS_yuv_v_mode' 'L_xyz_y_std' 'I_sobelx2_g_mode' 'L_yuv_u_mean'
+ 'I_hsv_full_Q50' 'L_sobel_8u_full_mode' 'S_hsv_h_Q20' 'S_xyz_x_std'
+ 'ALAS_yuv_u_Q35' 'haralick3' 'L_yuv_full_min' 'ALAS_yuv_v_Q90'
+ 'ALAS_laplacian_b_max' 'ALAS_hsv_h_Q80' 'I_hsv_full_Q60'
+ 'S_sobelx2_g_Q95' 'ALAS_rgb_g_Q95' 'area_1_50_hull_0.55' 'S_yuv_full_std'
+ 'area_0_70_hull_0.15' 'L_hsv_s_median' 'mean_mnr' 'I_xyz_x_std'
+ 'I_hsv_full_mean' 'I_hsv_h_Q95' 'area_0_70_ellipse_0.15' 'L_rgb_r_min'
+ 'I_sobely_g_std' 'area_1_90_ellipse_0.05' 'L_sobelx2_g_Q90'
+ 'area_0_150_hull_0.95' 'L_hsv_full_Q70' 'area_0_130_ellipse_0.85'
+ 'S_laplacian_r_Q40' 'S_hsv_full_Q5' 'I_rgb_b_max' 'ALAS_hsv_full_Q75'
+ 'ALAS_hsv_full_Q90' 'ALAS_sobelx2_g_max' 'I_yuv_u_Q45' 'L_hsv_full_Q55'
+ 'I_hsv_s_Q75' 'haralick2' 'S_rgb_r_Q95' 'I_sobelx2_b_mode'
+ 'ALAS_rgb_r_min' 'area_1_110_circle_0.25' 'I_yuv_y_std' 'ALAS_hsv_h_Q75'
+ 'area_2_130_ellipse_0.25' 'I_laplacian_full_Q35' 'S_hsv_full_Q40'
+ 'area_2_110_hull_0.15' 'I_rgb_g_Q15' 'L_hsv_h_Q10' 'I_sobely_r_max'
+ 'ALAS_hsv_h_Q30' 'ALAS_xyz_y_mode' 'S_xyz_x_min' 'I_laplacian_b_Q20'
+ 'I_laplacian_r_std' 'area_0_30_ellipse_1.0' 'L_sobely2_g_mode'
+ 'S_rgb_g_mode' 'L_rgb_b_Q30' 'ALAS_sobelx2_full_max' 'S_hsv_s_mode'
+ 'S_laplacian_full_mean' 'L_sobely_g_Q85' 'S_sobely2_r_mode'
+ 'area_0_150_hull_0.25' 'ALAS_sobelx_b_Q95' 'I_sobely_r_std' 'lbp17'
+ 'L_rbg_full_min' 'I_hsv_full_Q55' 'L_sobely2_b_Q95' 'ALAS_yuv_u_Q30'
+ 'S_rbg_full_min' 'ALAS_hsv_full_Q25' 'L_sobelx_g_Q90'
+ 'ALAS_hsv_full_mean' 'L_xyz_z_min' 'area_2_70_circle_0.55' 'I_hsv_s_Q80'
+ 'min_catch' 'I_laplacian_g_mean' 'S_hsv_full_max']
